@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simple-mvc-config>
+
+    <controller-config>
+        <url>/</url>
+        <type>com.degas.simplemvc.controllers.HomeController</type>
+        <forward>
+            <name>success</name>
+            <pagesPath>/WEB-INF/views/home.jsp</pagesPath>
+        </forward>
+        <forward>
+            <name>failure</name>
+            <pagesPath>/WEB-INF/views/home.jsp</pagesPath>
+        </forward>
+    </controller-config>
+
+    <controller-config>
+        <url>/home</url>
+        <type>com.degas.simplemvc.controllers.HomeController</type>
+        <forward>
+            <name>success</name>
+            <pagesPath>/WEB-INF/views/home.jsp</pagesPath>
+        </forward>
+    </controller-config>
+
+    <controller-config>
+        <url>/contact</url>
+        <type>com.degas.simplemvc.controllers.ContactController</type>
+        <forward>
+            <name>success</name>
+            <pagesPath>/WEB-INF/views/contact.jsp</pagesPath>
+        </forward>
+    </controller-config>
+
+</simple-mvc-config>
